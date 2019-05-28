@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dyros/dyros_red_ethercat_master/dyros_red_model.cpp
+dyros_red_model.h
+/home/dyros/dyros_red_ethercat_master/dyros_red_model.h
+
+/home/dyros/dyros_red_ethercat_master/dyros_red_model.h
+rbdl/rbdl.h
+-
+rbdl/addons/urdfreader/urdfreader.h
+-
+

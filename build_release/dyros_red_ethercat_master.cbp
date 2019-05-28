@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="dyros_red_ethercat_master" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dyros_red_ethercat_master">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/dyros_red_ethercat_master" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 dyros_red_ethercat_master" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dyros_red_ethercat_master/fast">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/dyros_red_ethercat_master" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 dyros_red_ethercat_master/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dyros_red_ethercat">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libdyros_red_ethercat.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 dyros_red_ethercat" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dyros_red_ethercat/fast">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libdyros_red_ethercat.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 dyros_red_ethercat/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="controller">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libcontroller.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 controller" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="controller/fast">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libcontroller.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 controller/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dyros_red_model">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libdyros_red_model.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 dyros_red_model" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="dyros_red_model/fast">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libdyros_red_model.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 dyros_red_model/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sensoray826">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libsensoray826.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 sensoray826" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="sensoray826/fast">
+         <Option output="/home/dyros/dyros_red_ethercat_master/build_release/libsensoray826.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/dyros/dyros_red_ethercat_master/build_release" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/dyros/dyros_red_ethercat_master/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/eigen3" />
+            <Add directory="/usr/local/include/rbdl" />
+            <Add directory="/usr/local/include/soem" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 sensoray826/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/dyros/dyros_red_ethercat_master/build_release/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/controller.cpp">
+         <Option target="controller"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/controller.h">
+         <Option target="controller"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/dyros_red_model.cpp">
+         <Option target="dyros_red_model"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/dyros_red_model.h">
+         <Option target="dyros_red_model"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/main.cpp">
+         <Option target="dyros_red_ethercat_master"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/red_ec_master.cpp">
+         <Option target="dyros_red_ethercat"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/red_ec_master.h">
+         <Option target="dyros_red_ethercat"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/sensoray826.cpp">
+         <Option target="sensoray826"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/sensoray826.h">
+         <Option target="sensoray826"/>
+      </Unit>
+      <Unit filename="/home/dyros/dyros_red_ethercat_master/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

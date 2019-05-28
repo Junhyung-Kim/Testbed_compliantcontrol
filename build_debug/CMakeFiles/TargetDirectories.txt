@@ -1,0 +1,6 @@
+/home/dyros/dyros_red_ethercat_master/build_debug/CMakeFiles/edit_cache.dir
+/home/dyros/dyros_red_ethercat_master/build_debug/CMakeFiles/rebuild_cache.dir
+/home/dyros/dyros_red_ethercat_master/build_debug/CMakeFiles/dyros_red_ethercat.dir
+/home/dyros/dyros_red_ethercat_master/build_debug/CMakeFiles/walking_controller.dir
+/home/dyros/dyros_red_ethercat_master/build_debug/CMakeFiles/dyros_red_model.dir
+/home/dyros/dyros_red_ethercat_master/build_debug/CMakeFiles/dyros_red_ethercat_master.dir

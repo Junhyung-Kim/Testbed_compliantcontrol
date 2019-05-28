@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dyros/dyros_red_ethercat_master/826api.h
+linux/types.h
+-
+stdint.h
+-
+
+/home/dyros/dyros_red_ethercat_master/sensoray826.cpp
+sensoray826.h
+/home/dyros/dyros_red_ethercat_master/sensoray826.h
+
+/home/dyros/dyros_red_ethercat_master/sensoray826.h
+boost/thread.hpp
+-
+826api.h
+/home/dyros/dyros_red_ethercat_master/826api.h
+

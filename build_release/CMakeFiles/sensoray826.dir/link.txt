@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsensoray826.a  CMakeFiles/sensoray826.dir/sensoray826.cpp.o
+/usr/bin/ranlib libsensoray826.a

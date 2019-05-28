@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdyros_red_ethercat.a  CMakeFiles/dyros_red_ethercat.dir/red_ec_master.cpp.o
+/usr/bin/ranlib libdyros_red_ethercat.a

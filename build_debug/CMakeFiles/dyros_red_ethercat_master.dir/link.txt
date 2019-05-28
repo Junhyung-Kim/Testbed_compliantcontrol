@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/dyros_red_ethercat_master.dir/main.cpp.o  -o dyros_red_ethercat_master -rdynamic libdyros_red_ethercat.a libdyros_red_model.a libwalking_controller.a -L/usr/local/lib -lsoem -lpthread -lrt 

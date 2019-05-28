@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdyros_red_model.a  CMakeFiles/dyros_red_model.dir/dyros_red_model.cpp.o
+/usr/bin/ranlib libdyros_red_model.a

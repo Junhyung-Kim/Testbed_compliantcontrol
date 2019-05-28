@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwalking_controller.a  CMakeFiles/walking_controller.dir/walking_controller.cpp.o
+/usr/bin/ranlib libwalking_controller.a
